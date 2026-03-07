@@ -1,8 +1,27 @@
+import AboutSection from "@/components/AboutSection";
+import ContactCTA from "@/components/ContactCTA";
+import Footer from "@/components/Footer";
+import GalleryPreview from "@/components/GalleryPreview";
+import Hero from "@/components/Hero";
+import InfoBar from "@/components/InfoBar";
+import LocationsSection from "@/components/LocationsSection";
+import Navbar from "@/components/Navbar";
+import OfferCards from "@/components/OfferCards";
+import ServiceHighlights from "@/components/ServiceHighlights";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Thrift Store Redesign</h1>
-      <p>The new site is working.</p>
+    <main className="min-h-screen bg-[#f7f5f1] text-neutral-900">
+      <Navbar />
+      <Hero />
+      <InfoBar />
+      <AboutSection />
+      <OfferCards />
+      <ServiceHighlights />
+      <GalleryPreview />
+      <LocationsSection />
+      <ContactCTA />
+      <Footer />
     </main>
   );
 }
