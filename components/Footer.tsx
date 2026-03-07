@@ -7,8 +7,8 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-bold">{siteData.businessName}</h3>
           <p className="mt-3 text-sm leading-6 text-neutral-600">
-            Affordable thrift finds, community donations, and clean-out services
-            in North Bergen.
+            Affordable thrift finds, community donations, and clean-out
+            services in North Bergen.
           </p>
         </div>
 
@@ -17,19 +17,22 @@ export default function Footer() {
             Quick Links
           </h4>
           <div className="mt-4 space-y-3 text-sm text-neutral-700">
-            <a href="#about" className="block hover:text-neutral-900">
+            <a href="/" className="block hover:text-neutral-900">
+              Home
+            </a>
+            <a href="/about" className="block hover:text-neutral-900">
               About
             </a>
-            <a href="#donate" className="block hover:text-neutral-900">
+            <a href="/donate" className="block hover:text-neutral-900">
               Donate
             </a>
-            <a href="#services" className="block hover:text-neutral-900">
+            <a href="/services" className="block hover:text-neutral-900">
               Services
             </a>
-            <a href="#locations" className="block hover:text-neutral-900">
+            <a href="/locations" className="block hover:text-neutral-900">
               Locations
             </a>
-            <a href="#contact" className="block hover:text-neutral-900">
+            <a href="/contact" className="block hover:text-neutral-900">
               Contact
             </a>
           </div>
@@ -37,30 +40,37 @@ export default function Footer() {
 
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-[0.18em] text-neutral-500">
-            Main Store
+            Contact
           </h4>
-          <p className="mt-4 text-sm leading-6 text-neutral-600">
-            {siteData.locations[0].addressLine1}
-            <br />
-            {siteData.locations[0].addressLine2}
-          </p>
-          <p className="mt-3 text-sm text-neutral-500">
-            {siteData.locations[0].details}
-          </p>
+          <div className="mt-4 space-y-3 text-sm leading-6 text-neutral-600">
+            <p>{siteData.contact.phoneDisplay}</p>
+            <p>{siteData.contact.emailDisplay}</p>
+            <p>{siteData.contact.secondaryEmailDisplay}</p>
+          </div>
         </div>
 
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-[0.18em] text-neutral-500">
-            Second Location
+            Online
           </h4>
-          <p className="mt-4 text-sm leading-6 text-neutral-600">
-            {siteData.locations[1].addressLine1}
-            <br />
-            {siteData.locations[1].addressLine2}
-          </p>
-          <p className="mt-3 text-sm text-neutral-500">
-            {siteData.locations[1].details}
-          </p>
+          <div className="mt-4 space-y-3 text-sm leading-6 text-neutral-600">
+            <a
+              href={siteData.website.href}
+              target="_blank"
+              rel="noreferrer"
+              className="block hover:text-neutral-900"
+            >
+              {siteData.website.display}
+            </a>
+            <a
+              href={siteData.social.instagramHref}
+              target="_blank"
+              rel="noreferrer"
+              className="block hover:text-neutral-900"
+            >
+              {siteData.social.instagramHandle}
+            </a>
+          </div>
         </div>
       </div>
 

@@ -1,7 +1,17 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { siteData } from "@/data/site";
+
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/donate", label: "Donate" },
+  { href: "/services", label: "Services" },
+  { href: "/locations", label: "Locations" },
+  { href: "/contact", label: "Contact" },
+];
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,32 +20,23 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-neutral-200/80 bg-white/90 backdrop-blur">
       <div className="mx-auto max-w-7xl px-6 py-4">
         <div className="flex items-center justify-between">
-          <div>
+          <Link href="/" className="block">
             <p className="text-xl font-bold tracking-tight">
               {siteData.businessName}
             </p>
             <p className="text-sm text-neutral-500">{siteData.city}</p>
-          </div>
+          </Link>
 
           <nav className="hidden gap-6 text-sm font-medium md:flex">
-            <a href="#about" className="transition hover:text-neutral-600">
-              About
-            </a>
-            <a href="#donate" className="transition hover:text-neutral-600">
-              Donate
-            </a>
-            <a href="#services" className="transition hover:text-neutral-600">
-              Services
-            </a>
-            <a href="#gallery" className="transition hover:text-neutral-600">
-              Gallery
-            </a>
-            <a href="#locations" className="transition hover:text-neutral-600">
-              Locations
-            </a>
-            <a href="#contact" className="transition hover:text-neutral-600">
-              Contact
-            </a>
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="transition hover:text-neutral-600"
+              >
+                {link.label}
+              </Link>
+            ))}
           </nav>
 
           <button
@@ -50,48 +51,16 @@ export default function Navbar() {
         {menuOpen && (
           <div className="mt-4 rounded-3xl border border-neutral-200 bg-white p-4 shadow-sm md:hidden">
             <nav className="flex flex-col gap-3 text-sm font-medium">
-              <a
-                href="#about"
-                onClick={() => setMenuOpen(false)}
-                className="rounded-xl px-3 py-2 transition hover:bg-neutral-100"
-              >
-                About
-              </a>
-              <a
-                href="#donate"
-                onClick={() => setMenuOpen(false)}
-                className="rounded-xl px-3 py-2 transition hover:bg-neutral-100"
-              >
-                Donate
-              </a>
-              <a
-                href="#services"
-                onClick={() => setMenuOpen(false)}
-                className="rounded-xl px-3 py-2 transition hover:bg-neutral-100"
-              >
-                Services
-              </a>
-              <a
-                href="#gallery"
-                onClick={() => setMenuOpen(false)}
-                className="rounded-xl px-3 py-2 transition hover:bg-neutral-100"
-              >
-                Gallery
-              </a>
-              <a
-                href="#locations"
-                onClick={() => setMenuOpen(false)}
-                className="rounded-xl px-3 py-2 transition hover:bg-neutral-100"
-              >
-                Locations
-              </a>
-              <a
-                href="#contact"
-                onClick={() => setMenuOpen(false)}
-                className="rounded-xl px-3 py-2 transition hover:bg-neutral-100"
-              >
-                Contact
-              </a>
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="rounded-xl px-3 py-2 transition hover:bg-neutral-100"
+                >
+                  {link.label}
+                </Link>
+              ))}
             </nav>
           </div>
         )}

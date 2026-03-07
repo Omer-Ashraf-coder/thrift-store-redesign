@@ -2,6 +2,16 @@ export const siteData = {
   businessName: "Thrift Store Donation Center",
   city: "North Bergen, New Jersey",
 
+  website: {
+    display: "thriftstoredonationcenter.com",
+    href: "https://thriftstoredonationcenter.com",
+  },
+
+  social: {
+    instagramHandle: "@union_city_family_thrift_store",
+    instagramHref: "https://www.instagram.com/union_city_family_thrift_store/",
+  },
+
   hero: {
     eyebrow: "Community Thrift Store",
     title: "Affordable finds, easy donations, and clean-out services.",
@@ -16,45 +26,49 @@ export const siteData = {
   },
 
   contact: {
-    phoneDisplay: "(201) 555-0123",
-    phoneHref: "tel:+12015550123",
-    emailDisplay: "info@example.com",
-    emailHref: "mailto:info@example.com",
+    phoneDisplay: "(551) 323-4974",
+    phoneHref: "tel:+15513234974",
+
+    emailDisplay: "Store@ThriftStoreDonationCenter.com",
+    emailHref: "mailto:Store@ThriftStoreDonationCenter.com",
+
+    secondaryEmailDisplay: "Richard@ThriftStoreDonationCenter.com",
+    secondaryEmailHref: "mailto:Richard@ThriftStoreDonationCenter.com",
   },
 
   locations: [
     {
       name: "Main Store",
-      addressLine1: "905 Paterson Plank Road",
-      addressLine2: "North Bergen, NJ",
-      details: "Add official hours and phone number here.",
-      hours: "Mon–Sat: 10:00 AM – 6:00 PM",
+      addressLine1: "905 Paterson Plank Rd",
+      addressLine2: "North Bergen, NJ 07047",
+      details: "Phone: (551) 323-4974",
+      hours: "Mon–Sat: 12:00 PM – 6:00 PM",
       mapsUrl:
-        "https://www.google.com/maps/search/?api=1&query=905+Paterson+Plank+Road+North+Bergen+NJ",
+        "https://www.google.com/maps/search/?api=1&query=905+Paterson+Plank+Rd+North+Bergen+NJ+07047",
     },
     {
       name: "Second Location",
       addressLine1: "619 Kennedy Blvd",
-      addressLine2: "North Bergen, NJ",
-      details: "Add official hours and phone number here.",
-      hours: "Mon–Sat: 10:00 AM – 6:00 PM",
+      addressLine2: "North Bergen, NJ 07047",
+      details: "Second North Bergen location",
+      hours: "Mon–Sat: 12:00 PM – 6:00 PM",
       mapsUrl:
-        "https://www.google.com/maps/search/?api=1&query=619+Kennedy+Blvd+North+Bergen+NJ",
+        "https://www.google.com/maps/search/?api=1&query=619+Kennedy+Blvd+North+Bergen+NJ+07047",
     },
   ],
 
   infoBar: [
     {
       label: "Call",
-      value: "(201) 555-0123",
+      value: "(551) 323-4974",
     },
     {
       label: "Email",
-      value: "info@example.com",
+      value: "Store@ThriftStoreDonationCenter.com",
     },
     {
       label: "Main Store",
-      value: "905 Paterson Plank Road",
+      value: "905 Paterson Plank Rd",
     },
     {
       label: "Second Location",
