@@ -1,44 +1,56 @@
-export default function ServiceHighlights() {
+import Link from "next/link";
+
+export default function ServicePromo() {
   return (
-    <section id="services" className="mx-auto max-w-7xl px-6 py-20">
-      <div className="grid gap-6 md:grid-cols-2">
-        <div className="rounded-[2rem] bg-neutral-900 p-10 text-white shadow-lg">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-400">
+    <section className="bg-[#f7f5f1]">
+      <div className="mx-auto max-w-7xl px-6 py-16 grid gap-6 md:grid-cols-2">
+
+        {/* DONATIONS CARD */}
+        <Link
+          href="/donate"
+          className="group block rounded-[36px] bg-black text-white p-10 shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-2xl"
+        >
+          <p className="text-sm font-semibold tracking-[0.22em] uppercase text-emerald-400">
             Donations
           </p>
 
-          <h3 className="mt-4 text-3xl font-bold tracking-tight">
+          <h3 className="mt-4 text-4xl font-bold leading-tight">
             Make donating simple and convenient.
           </h3>
 
-          <p className="mt-5 max-w-xl leading-7 text-neutral-300">
-            Share clear information about accepted items, drop-off details, and
-            how local donations support the store and community.
+          <p className="mt-6 text-neutral-300 text-lg leading-relaxed">
+            Share clear information about accepted items, drop-off details,
+            and how local donations support the store and community.
           </p>
 
-          <div className="mt-8 inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-medium text-neutral-200">
+          <div className="mt-8 inline-block rounded-full border border-neutral-700 px-6 py-3 text-sm font-semibold group-hover:border-white transition">
             Easy drop-offs • Clear guidelines
           </div>
-        </div>
+        </Link>
 
-        <div className="rounded-[2rem] bg-emerald-700 p-10 text-white shadow-lg">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-100">
+        {/* CLEAN OUT SERVICES */}
+        <Link
+          href="/services"
+          className="group block rounded-[36px] bg-emerald-700 text-white p-10 shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-2xl"
+        >
+          <p className="text-sm font-semibold tracking-[0.22em] uppercase text-emerald-200">
             Clean-Outs
           </p>
 
-          <h3 className="mt-4 text-3xl font-bold tracking-tight">
+          <h3 className="mt-4 text-4xl font-bold leading-tight">
             Reliable help for local clean-out projects.
           </h3>
 
-          <p className="mt-5 max-w-xl leading-7 text-emerald-50">
-            Highlight service areas, request details, and before-and-after
-            results so visitors understand how the process works.
+          <p className="mt-6 text-emerald-100 text-lg leading-relaxed">
+            Highlight service areas, request details, and explain the process
+            so visitors understand how clean-out services work.
           </p>
 
-          <div className="mt-8 inline-flex rounded-full border border-white/20 px-4 py-2 text-sm font-medium text-emerald-50">
+          <div className="mt-8 inline-block rounded-full border border-emerald-300 px-6 py-3 text-sm font-semibold group-hover:border-white transition">
             Local service • Direct contact
           </div>
-        </div>
+        </Link>
+
       </div>
     </section>
   );

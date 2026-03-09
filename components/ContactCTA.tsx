@@ -1,6 +1,10 @@
 import { siteData } from "@/data/site";
 
 export default function ContactCTA() {
+  const gmailCompose = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+    siteData.contact.emailDisplay
+  )}`;
+
   return (
     <section id="contact" className="mx-auto max-w-7xl px-6 py-20">
       <div className="rounded-[2rem] bg-neutral-900 px-8 py-14 text-white md:px-14">
@@ -18,18 +22,24 @@ export default function ContactCTA() {
         </p>
 
         <div className="mt-8 flex flex-wrap gap-4">
+          {/* Call Button */}
           <a
             href={siteData.contact.phoneHref}
+            aria-label={`Call ${siteData.contact.phoneDisplay}`}
             className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-neutral-900 transition hover:bg-neutral-200"
           >
             Call {siteData.contact.phoneDisplay}
           </a>
 
+          {/* Email Button (opens Gmail compose) */}
           <a
-            href={siteData.contact.emailHref}
+            href={gmailCompose}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Email ${siteData.contact.emailDisplay}`}
             className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
           >
-            Email Us
+            Email Us!
           </a>
         </div>
       </div>

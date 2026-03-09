@@ -10,6 +10,9 @@ export const siteData = {
   social: {
     instagramHandle: "@union_city_family_thrift_store",
     instagramHref: "https://www.instagram.com/union_city_family_thrift_store/",
+    facebookHref:
+      "https://www.facebook.com/people/Union-City-Family-Thrift-Store-Donation-Center/100089127332991/",
+    whatsappHref: "https://wa.me/15513234974",
   },
 
   hero: {
@@ -17,6 +20,10 @@ export const siteData = {
     title: "Affordable finds, easy donations, and clean-out services.",
     description:
       "Discover affordable secondhand finds, donate gently used items, and connect with our team for clean-out services in North Bergen.",
+    images: [
+      "/images/hero-store.jpg",
+      "/images/hero-store-2.jpg",
+    ],
   },
 
   about: {
@@ -73,6 +80,34 @@ export const siteData = {
     {
       label: "Second Location",
       value: "619 Kennedy Blvd",
+    },
+  ],
+
+  testimonials: [
+    {
+      name: "John S.",
+      quote:
+        "Went here recently as it just opened. Clean, organized, hidden gem with high quality clothes and very good pricing. Very friendly owner. Support your local business.",
+    },
+    {
+      name: "W. Chan",
+      quote:
+        "Very well organized. They have the best prices, the shop always looks clean and neat, and the manager and staff are very friendly. The items are in great condition.",
+    },
+    {
+      name: "Laura Goode",
+      quote:
+        "Richie, the owner, is fantastic and the prices here are great. He gets a lot of stuff into a small space and keeps fresh inventory coming in.",
+    },
+    {
+      name: "EMT Muniz",
+      quote:
+        "This is a boutique shop with family-run, loving, friendly service. Richie is class A all the way.",
+    },
+    {
+      name: "Tomoko Cummings",
+      quote:
+        "They have a small space but a lot of good clothes. I go there every week and find new good stuff, including vintage items and half-price racks.",
     },
   ],
 };

@@ -51,8 +51,9 @@ export default function Footer() {
 
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-[0.18em] text-neutral-500">
-            Online
+            Follow Us
           </h4>
+
           <div className="mt-4 space-y-3 text-sm leading-6 text-neutral-600">
             <a
               href={siteData.website.href}
@@ -60,15 +61,34 @@ export default function Footer() {
               rel="noreferrer"
               className="block hover:text-neutral-900"
             >
-              {siteData.website.display}
+              Website
             </a>
+
             <a
               href={siteData.social.instagramHref}
               target="_blank"
               rel="noreferrer"
               className="block hover:text-neutral-900"
             >
-              {siteData.social.instagramHandle}
+              Instagram
+            </a>
+
+            <a
+              href={siteData.social.facebookHref}
+              target="_blank"
+              rel="noreferrer"
+              className="block hover:text-neutral-900"
+            >
+              Facebook
+            </a>
+
+            <a
+              href={siteData.social.whatsappHref}
+              target="_blank"
+              rel="noreferrer"
+              className="block hover:text-neutral-900"
+            >
+              WhatsApp
             </a>
           </div>
         </div>

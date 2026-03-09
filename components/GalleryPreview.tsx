@@ -19,12 +19,11 @@ export default function GalleryPreview() {
           </p>
 
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            A closer look at the store and what shoppers can discover.
+            A closer look at the store and the community around it.
           </h2>
 
           <p className="mt-4 leading-7 text-neutral-600">
-            Browse a few highlights from the store, including clothing, home
-            goods, furniture, and everyday secondhand finds.
+            Take a glimpse inside the store and see some of the people who make it special: customers, neighbors, and moments from everyday life at Thrift Store Donation Center.
           </p>
         </div>
 

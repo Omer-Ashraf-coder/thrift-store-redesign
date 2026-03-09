@@ -6,6 +6,7 @@ import InfoBar from "@/components/InfoBar";
 import LocationsSection from "@/components/LocationsSection";
 import OfferCards from "@/components/OfferCards";
 import ServiceHighlights from "@/components/ServiceHighlights";
+import TestimonialsSection from "@/components/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <OfferCards />
       <ServiceHighlights />
       <GalleryPreview />
+      <TestimonialsSection />
       <LocationsSection />
       <ContactCTA />
     </main>
