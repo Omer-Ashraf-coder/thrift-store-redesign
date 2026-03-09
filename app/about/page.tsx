@@ -2,63 +2,18 @@ import { siteData } from "@/data/site";
 
 export default function AboutPage() {
   return (
-    <main
-      style={{
-        minHeight: "100vh",
-        background: "#f7f5f1",
-        color: "#171717",
-      }}
-    >
-      <section
-        style={{
-          maxWidth: "1280px",
-          margin: "0 auto",
-          padding: "96px 24px 120px",
-        }}
-      >
-        <div
-          style={{
-            maxWidth: "1040px",
-            marginLeft: "160px",
-          }}
-        >
-          <p
-            style={{
-              margin: 0,
-              marginBottom: "18px",
-              fontSize: "13px",
-              fontWeight: 700,
-              textTransform: "uppercase",
-              letterSpacing: "0.24em",
-              color: "#047857",
-            }}
-          >
-            ABOUT
+    <main className="min-h-screen bg-[#f7f5f1] text-neutral-900">
+      <section className="mx-auto max-w-7xl px-6 py-24">
+        <div className="mx-auto max-w-6xl">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-emerald-700">
+            About
           </p>
 
-          <h1
-            style={{
-              margin: 0,
-              maxWidth: "1040px",
-              fontSize: "68px",
-              lineHeight: 1.02,
-              fontWeight: 700,
-              letterSpacing: "-0.04em",
-              color: "#111111",
-            }}
-          >
+          <h1 className="max-w-5xl text-5xl font-bold leading-[1.02] tracking-tight md:text-7xl">
             About {siteData.businessName}
           </h1>
 
-          <p
-            style={{
-              margin: "28px 0 0",
-              maxWidth: "1040px",
-              fontSize: "17px",
-              lineHeight: 1.75,
-              color: "#374151",
-            }}
-          >
+          <p className="mt-8 max-w-5xl text-lg leading-10 text-neutral-700">
             {siteData.businessName} is a community thrift store built on faith,
             service, and a commitment to helping local families access quality
             secondhand goods at affordable prices. We believe in serving our
@@ -66,81 +21,19 @@ export default function AboutPage() {
             blessings God provides each day.
           </p>
 
-          <div
-            style={{
-              marginTop: "44px",
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: "28px",
-              maxWidth: "1040px",
-            }}
-          >
-            <div
-              style={{
-                background: "#ffffff",
-                border: "1px solid #e7e2da",
-                borderRadius: "34px",
-                padding: "34px 34px 30px",
-                boxShadow:
-                  "0 1px 0 rgba(0,0,0,0.03), 0 3px 10px rgba(0,0,0,0.03)",
-              }}
-            >
-              <h2
-                style={{
-                  margin: 0,
-                  fontSize: "30px",
-                  lineHeight: 1.15,
-                  fontWeight: 700,
-                  color: "#111111",
-                }}
-              >
-                Our Mission
-              </h2>
-
-              <p
-                style={{
-                  margin: "24px 0 0",
-                  fontSize: "16px",
-                  lineHeight: 1.85,
-                  color: "#4b5563",
-                }}
-              >
+          <div className="mt-12 grid gap-8 md:grid-cols-2">
+            <div className="rounded-[2rem] border border-neutral-200 bg-white p-10 shadow-sm">
+              <h2 className="text-2xl font-bold md:text-3xl">Our Mission</h2>
+              <p className="mt-6 text-base leading-9 text-neutral-700">
                 We strive to repurpose and recycle quality used items, operate
                 as responsibly and environmentally friendly as possible, and
                 serve our community with faith, integrity, dignity, and respect.
               </p>
             </div>
 
-            <div
-              style={{
-                background: "#ffffff",
-                border: "1px solid #e7e2da",
-                borderRadius: "34px",
-                padding: "34px 34px 30px",
-                boxShadow:
-                  "0 1px 0 rgba(0,0,0,0.03), 0 3px 10px rgba(0,0,0,0.03)",
-              }}
-            >
-              <h2
-                style={{
-                  margin: 0,
-                  fontSize: "30px",
-                  lineHeight: 1.15,
-                  fontWeight: 700,
-                  color: "#111111",
-                }}
-              >
-                What We Value
-              </h2>
-
-              <p
-                style={{
-                  margin: "24px 0 0",
-                  fontSize: "16px",
-                  lineHeight: 1.85,
-                  color: "#4b5563",
-                }}
-              >
+            <div className="rounded-[2rem] border border-neutral-200 bg-white p-10 shadow-sm">
+              <h2 className="text-2xl font-bold md:text-3xl">What We Value</h2>
+              <p className="mt-6 text-base leading-9 text-neutral-700">
                 We value honesty, trust, affordability, strong community ties,
                 and letting our faith in God guide how we serve our customers,
                 neighbors, and local families every day.
@@ -148,52 +41,16 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div
-            style={{
-              marginTop: "30px",
-              maxWidth: "1040px",
-              background: "#ffffff",
-              border: "1px solid #e7e2da",
-              borderRadius: "34px",
-              padding: "40px",
-              boxShadow:
-                "0 1px 0 rgba(0,0,0,0.03), 0 3px 10px rgba(0,0,0,0.03)",
-            }}
-          >
-            <p
-              style={{
-                margin: 0,
-                marginBottom: "14px",
-                fontSize: "13px",
-                fontWeight: 700,
-                letterSpacing: "0.25em",
-                textTransform: "uppercase",
-                color: "#047857",
-              }}
-            >
-              FOUNDER STORY
+          <div className="mt-8 rounded-[2rem] border border-neutral-200 bg-white p-10 shadow-sm md:p-12">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-700">
+              Founder Story
             </p>
 
-            <h2
-              style={{
-                margin: 0,
-                fontSize: "34px",
-                fontWeight: 700,
-                color: "#111111",
-              }}
-            >
+            <h2 className="mt-4 text-3xl font-bold md:text-4xl">
               Words from Richard (Richie)
             </h2>
 
-            <div
-              style={{
-                marginTop: "22px",
-                fontSize: "16px",
-                lineHeight: 1.9,
-                color: "#374151",
-                whiteSpace: "pre-line",
-              }}
-            >
+            <div className="mt-8 whitespace-pre-line text-[15px] leading-9 text-neutral-700">
 {`Always be thankful and praise the Lord, for He knows every hair on our heads and knew us before we began our journey in our mother’s womb. God blesses me, my family, my customers, and my community every day. For that I am truly thankful and sing with joy. So if you ever hear me humming a song, I am simply praising our Lord God.
 
 My past has greatly influenced my mindset and my desire to build a better life for my family and myself. When I was a young man, I learned what it meant to work hard and to pursue meaningful goals that truly mattered.
@@ -230,44 +87,17 @@ North Bergen, NJ 07047`}
             </div>
           </div>
 
-          <div
-            style={{
-              marginTop: "30px",
-              display: "flex",
-              gap: "14px",
-            }}
-          >
+          <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="/locations"
-              style={{
-                display: "inline-block",
-                padding: "14px 20px",
-                borderRadius: "999px",
-                background: "#111111",
-                color: "#ffffff",
-                fontSize: "15px",
-                fontWeight: 700,
-                textDecoration: "none",
-                lineHeight: 1,
-              }}
+              className="rounded-full bg-neutral-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-neutral-700"
             >
               View Locations
             </a>
 
             <a
               href="/contact"
-              style={{
-                display: "inline-block",
-                padding: "14px 20px",
-                borderRadius: "999px",
-                background: "#ffffff",
-                color: "#111111",
-                border: "1px solid #d6d3d1",
-                fontSize: "15px",
-                fontWeight: 700,
-                textDecoration: "none",
-                lineHeight: 1,
-              }}
+              className="rounded-full border border-neutral-300 bg-white px-6 py-3 text-sm font-semibold text-neutral-900 transition hover:bg-neutral-100"
             >
               Contact Us
             </a>
