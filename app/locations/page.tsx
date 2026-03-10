@@ -37,6 +37,17 @@ export default function LocationsPage() {
                   {location.hours}
                 </p>
 
+                {/* Google Map */}
+                <div className="mt-6 overflow-hidden rounded-2xl border">
+                  <iframe
+                    src={`https://www.google.com/maps?q=${encodeURIComponent(
+                      location.addressLine1 + " " + location.addressLine2
+                    )}&output=embed`}
+                    className="h-[260px] w-full"
+                    loading="lazy"
+                  />
+                </div>
+
                 <a
                   href={location.mapsUrl}
                   target="_blank"
