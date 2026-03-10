@@ -3,17 +3,17 @@ import { siteData } from "@/data/site";
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[#f7f5f1] text-neutral-900">
-      <section className="mx-auto max-w-7xl px-6 py-24">
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-6xl">
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.24em] text-emerald-700">
             About
           </p>
 
-          <h1 className="max-w-5xl text-5xl font-bold leading-[1.02] tracking-tight md:text-7xl">
+          <h1 className="max-w-5xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-7xl">
             About {siteData.businessName}
           </h1>
 
-          <p className="mt-8 max-w-5xl text-lg leading-10 text-neutral-700">
+          <p className="mt-6 max-w-5xl text-base leading-8 text-neutral-700 sm:text-lg sm:leading-9">
             {siteData.businessName} is a community thrift store built on faith,
             service, and a commitment to helping local families access quality
             secondhand goods at affordable prices. We believe in serving our
@@ -21,19 +21,19 @@ export default function AboutPage() {
             blessings God provides each day.
           </p>
 
-          <div className="mt-12 grid gap-8 md:grid-cols-2">
-            <div className="rounded-[2rem] border border-neutral-200 bg-white p-10 shadow-sm">
-              <h2 className="text-2xl font-bold md:text-3xl">Our Mission</h2>
-              <p className="mt-6 text-base leading-9 text-neutral-700">
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
+            <div className="rounded-[2rem] border border-neutral-200 bg-white p-6 shadow-sm sm:p-8 md:p-10">
+              <h2 className="text-2xl font-bold sm:text-3xl">Our Mission</h2>
+              <p className="mt-4 text-base leading-8 text-neutral-700 sm:mt-6 sm:leading-9">
                 We strive to repurpose and recycle quality used items, operate
                 as responsibly and environmentally friendly as possible, and
                 serve our community with faith, integrity, dignity, and respect.
               </p>
             </div>
 
-            <div className="rounded-[2rem] border border-neutral-200 bg-white p-10 shadow-sm">
-              <h2 className="text-2xl font-bold md:text-3xl">What We Value</h2>
-              <p className="mt-6 text-base leading-9 text-neutral-700">
+            <div className="rounded-[2rem] border border-neutral-200 bg-white p-6 shadow-sm sm:p-8 md:p-10">
+              <h2 className="text-2xl font-bold sm:text-3xl">What We Value</h2>
+              <p className="mt-4 text-base leading-8 text-neutral-700 sm:mt-6 sm:leading-9">
                 We value honesty, trust, affordability, strong community ties,
                 and letting our faith in God guide how we serve our customers,
                 neighbors, and local families every day.
@@ -41,16 +41,16 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="mt-8 rounded-[2rem] border border-neutral-200 bg-white p-10 shadow-sm md:p-12">
+          <div className="mt-8 rounded-[2rem] border border-neutral-200 bg-white p-6 shadow-sm sm:p-8 md:p-10 lg:p-12">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-700">
               Founder Story
             </p>
 
-            <h2 className="mt-4 text-3xl font-bold md:text-4xl">
+            <h2 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
               Words from Richard (Richie)
             </h2>
 
-            <div className="mt-8 whitespace-pre-line text-[15px] leading-9 text-neutral-700">
+            <div className="mt-6 whitespace-pre-line text-[15px] leading-8 text-neutral-700 sm:mt-8 sm:leading-9">
 {`Always be thankful and praise the Lord, for He knows every hair on our heads and knew us before we began our journey in our mother’s womb. God blesses me, my family, my customers, and my community every day. For that I am truly thankful and sing with joy. So if you ever hear me humming a song, I am simply praising our Lord God.
 
 My past has greatly influenced my mindset and my desire to build a better life for my family and myself. When I was a young man, I learned what it meant to work hard and to pursue meaningful goals that truly mattered.

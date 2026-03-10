@@ -10,7 +10,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#f7f5f1] text-neutral-900">
+    <main className="min-h-screen bg-[#f7f5f1] text-neutral-900 overflow-x-hidden">
       <Hero />
       <InfoBar />
       <AboutSection />

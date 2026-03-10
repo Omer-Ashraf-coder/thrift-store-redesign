@@ -12,18 +12,20 @@ const galleryImages = [
 export default function GalleryPreview() {
   return (
     <section id="gallery" className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-20">
-        <div className="max-w-3xl">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+        <div className="max-w-4xl">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">
             Gallery
           </p>
 
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            A closer look at the store and the community around it.
+            A closer look inside the store and its community.
           </h2>
 
-          <p className="mt-4 leading-7 text-neutral-600">
-            Take a glimpse inside the store and see some of the people who make it special: customers, neighbors, and moments from everyday life at Thrift Store Donation Center.
+          <p className="mt-4 text-base leading-8 text-neutral-600 sm:text-lg sm:leading-9">
+            These snapshots show everyday moments at the shop — from customers
+            browsing clothing and household items to the friendly faces that
+            make the store a local favorite.
           </p>
         </div>
 
@@ -33,7 +35,7 @@ export default function GalleryPreview() {
               key={src}
               className="group overflow-hidden rounded-[1.75rem] bg-neutral-100 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
-              <div className="relative h-[280px] overflow-hidden">
+              <div className="relative h-[260px] overflow-hidden sm:h-[280px]">
                 <Image
                   src={src}
                   alt={`Gallery photo ${index + 1}`}
