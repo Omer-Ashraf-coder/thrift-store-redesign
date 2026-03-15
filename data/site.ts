@@ -17,9 +17,9 @@ export const siteData = {
 
   hero: {
     eyebrow: "Community Thrift Store",
-    title: "Affordable finds, easy donations, and clean-out services.",
+    title: "Affordable finds and easy donations.",
     description:
-      "Discover affordable secondhand finds, donate gently used items, and connect with our team for clean-out services in North Bergen.",
+      "Discover affordable secondhand finds, donate gently used items, and visit our North Bergen locations to shop or drop off donations.",
     images: [
       "/images/hero-store.jpg",
       "/images/hero-store-2.jpg",
@@ -75,11 +75,11 @@ export const siteData = {
     },
     {
       label: "Main Store",
-      value: "905 Paterson Plank Rd",
+      value: "905 Paterson Plank Rd, North Bergen, NJ 07047",
     },
     {
       label: "Second Location",
-      value: "619 Kennedy Blvd",
+      value: "619 Kennedy Blvd, North Bergen, NJ 07047",
     },
   ],
 

@@ -45,16 +45,9 @@ export default function AboutPage() {
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-700">
               Founder Story
             </p>
-
-            <h2 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
-              Words from Richard (Richie)
-            </h2>
-
-            <div className="mt-6 whitespace-pre-line text-[15px] leading-8 text-neutral-700 sm:mt-8 sm:leading-9">
-{`Always be thankful and praise the Lord, for He knows every hair on our heads and knew us before we began our journey in our mother’s womb. God blesses me, my family, my customers, and my community every day. For that I am truly thankful and sing with joy. So if you ever hear me humming a song, I am simply praising our Lord God.
-
-My past has greatly influenced my mindset and my desire to build a better life for my family and myself. When I was a young man, I learned what it meant to work hard and to pursue meaningful goals that truly mattered.
-
+            
+            <div className="mt-5 whitespace-pre-line text-[15px] leading-6 text-neutral-700 sm:mt-6 sm:leading-6">
+{`
 My Goals
 • Repurpose and recycle quality used items whenever possible.
 • Operate in the most environmentally responsible way we can.
