@@ -26,8 +26,8 @@ export default function DonatePage() {
                 Common Donations
               </h2>
               <p className="mt-4 text-base leading-8 text-neutral-700 sm:mt-6 sm:leading-9">
-                Clothing, shoes, household items, décor, furniture, and other
-                gently used goods in clean and usable condition.
+                We currently accept gently used clothing, shoes, household
+                items, décor, and other clean and usable goods.
               </p>
             </div>
 

@@ -6,7 +6,7 @@ const cards = [
     eyebrow: "Shop",
     title: "Unique Finds",
     description:
-      "Browse clothing, furniture, home goods, and secondhand treasures at affordable prices.",
+      "Browse clothing, shoes, home goods, and secondhand treasures at affordable prices.",
     cta: "Explore in store →",
   },
   {
@@ -14,7 +14,7 @@ const cards = [
     eyebrow: "Donate",
     title: "Give Items a Second Life",
     description:
-      "Support the community by donating gently used items and helping others find quality essentials.",
+      "Support the community by donating gently used clothing, shoes, and other quality essentials.",
     cta: "Learn donation details →",
   },
   {

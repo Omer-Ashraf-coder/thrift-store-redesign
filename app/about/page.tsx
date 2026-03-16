@@ -45,7 +45,7 @@ export default function AboutPage() {
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-700">
               Founder Story
             </p>
-            
+
             <div className="mt-5 whitespace-pre-line text-[15px] leading-6 text-neutral-700 sm:mt-6 sm:leading-6">
 {`
 My Goals
@@ -60,8 +60,6 @@ My Goals
 A Little About Me
 
 Despite working with physical disabilities, Richard managed a large-scale thrift business with over 10,000 square feet of retail space. This thrift store was located on John F. Kennedy Blvd in Union City, New Jersey, where he worked for more than 33 years.
-
-That establishment operated successfully until one day a devastating fire destroyed the building. Thankfully, we praise God that no lives were lost in that fire.
 
 Richard began working hard at a young age and grew tremendously through experience. Over the years he learned the knowledge needed to succeed while working closely with corporate administrators from a large nonprofit organization. Many times these administrators could not see their mistakes, but Richard carefully observed every decision so he could learn from them and avoid repeating those same errors in the future.
 
