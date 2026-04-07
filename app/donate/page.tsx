@@ -44,12 +44,11 @@ export default function DonatePage() {
 
             <p className="mt-3 text-base leading-8 text-neutral-800 sm:text-lg sm:leading-9">
               {storeLocation.addressLine1} is the{" "}
-              <span className="font-semibold">store-only</span> location for
-              shopping. Donations and drop-offs go to{" "}
+              <span className="font-semibold">store-only</span> location.{" "}
               <span className="font-semibold">
                 {donationLocation.addressLine1}
-              </span>
-              .
+              </span>{" "}
+              is available for donations, drop-offs, and shopping.
             </p>
           </div>
 
@@ -91,7 +90,7 @@ export default function DonatePage() {
             <div className="grid gap-6">
               <div className="rounded-[2rem] border border-neutral-200 bg-white p-6 shadow-sm sm:p-8 md:p-10">
                 <h2 className="text-2xl font-bold sm:text-3xl">
-                  Donation Center & Drop-Off
+                  Donation Center, Drop-Off & Shopping
                 </h2>
 
                 <p className="mt-4 text-base leading-8 text-neutral-700 sm:mt-6 sm:leading-9">

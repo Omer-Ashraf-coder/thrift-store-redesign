@@ -12,9 +12,9 @@ const cards = [
   {
     href: "/donate",
     eyebrow: "Donate",
-    title: "905 Paterson Plank Rd Drop-Off",
+    title: "905 Paterson Plank Rd",
     description:
-      "Donate gently used clothing and shoes at our donation center and drop-off location.",
+      "Visit our donation center for drop-offs, donations, and shopping at this location.",
     cta: "See donation details →",
   },
   {

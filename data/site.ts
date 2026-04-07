@@ -17,9 +17,9 @@ export const siteData = {
 
   hero: {
     eyebrow: "Community Thrift Store",
-    title: "Affordable finds and easy clothing and shoe donations.",
+    title: "Affordable finds and easy donations in North Bergen.",
     description:
-      "Shop at our 619 Kennedy Blvd store, and drop off clothing and shoe donations at our 905 Paterson Plank Rd donation center in North Bergen.",
+      "Shop at 619 Kennedy Blvd, or visit 905 Paterson Plank Rd for donations, drop-offs, and shopping.",
     images: ["/images/hero-store-2.jpg", "/images/hero-store.jpg"],
   },
 
@@ -51,10 +51,11 @@ export const siteData = {
         "https://www.google.com/maps/search/?api=1&query=619+Kennedy+Blvd+North+Bergen+NJ+07047",
     },
     {
-      name: "Donation Center & Drop-Off",
+      name: "Donation Center, Drop-Off & Shopping",
       addressLine1: "905 Paterson Plank Rd",
       addressLine2: "North Bergen, NJ 07047",
-      details: "Donation center and clothing & shoe drop-off location.",
+      details:
+        "Donation center, drop-off location, and shopping location.",
       hours: "Mon–Sat: 12:00 PM – 5:00 PM",
       mapsUrl:
         "https://www.google.com/maps/search/?api=1&query=905+Paterson+Plank+Rd+North+Bergen+NJ+07047",
@@ -75,7 +76,7 @@ export const siteData = {
       value: "619 Kennedy Blvd, North Bergen, NJ 07047",
     },
     {
-      label: "Donation & Drop-Off",
+      label: "Donation, Drop-Off & Shopping",
       value: "905 Paterson Plank Rd, North Bergen, NJ 07047",
     },
   ],

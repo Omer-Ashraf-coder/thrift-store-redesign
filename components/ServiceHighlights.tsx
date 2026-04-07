@@ -22,7 +22,7 @@ export default function ServicePromo() {
           </p>
 
           <div className="mt-8 inline-block rounded-full border border-neutral-700 px-6 py-3 text-sm font-semibold transition group-hover:border-white">
-            Clothes & shoes only
+            Clothes • Shoes • Household items
           </div>
         </Link>
 
@@ -40,11 +40,11 @@ export default function ServicePromo() {
 
           <p className="mt-6 text-lg leading-relaxed text-emerald-100">
             619 Kennedy Blvd is the store-only location, and 905 Paterson Plank
-            Rd is the donation center and drop-off location.
+            Rd is for donations, drop-offs, and shopping.
           </p>
 
           <div className="mt-8 inline-block rounded-full border border-emerald-300 px-6 py-3 text-sm font-semibold transition group-hover:border-white">
-            Store • Donation drop-off
+            Store • Donation • Drop-off • Shopping
           </div>
         </Link>
       </div>
