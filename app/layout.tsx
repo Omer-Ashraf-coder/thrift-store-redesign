@@ -7,7 +7,7 @@ import FloatingCallButton from "@/components/FloatingCallButton";
 export const metadata: Metadata = {
   title: "Thrift Store Donation Center",
   description:
-    "Affordable thrift finds, community donations, and clean-out services in North Bergen.",
+    "Affordable thrift finds, community donations, and local drop-offs in North Bergen.",
 };
 
 export default function RootLayout({

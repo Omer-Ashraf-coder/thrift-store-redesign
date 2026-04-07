@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { siteData } from "@/data/site";
 
 export default function Footer() {
@@ -7,8 +8,8 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-bold">{siteData.businessName}</h3>
           <p className="mt-3 text-sm leading-6 text-neutral-600">
-            Affordable thrift finds, community donations, and clean-out
-            services in North Bergen.
+            Affordable thrift finds, community donations, and local drop-offs in
+            North Bergen.
           </p>
         </div>
 
@@ -17,24 +18,21 @@ export default function Footer() {
             Quick Links
           </h4>
           <div className="mt-4 space-y-3 text-sm text-neutral-700">
-            <a href="/" className="block hover:text-neutral-900">
+            <Link href="/" className="block hover:text-neutral-900">
               Home
-            </a>
-            <a href="/about" className="block hover:text-neutral-900">
+            </Link>
+            <Link href="/about" className="block hover:text-neutral-900">
               About
-            </a>
-            <a href="/donate" className="block hover:text-neutral-900">
+            </Link>
+            <Link href="/donate" className="block hover:text-neutral-900">
               Donate
-            </a>
-            <a href="/services" className="block hover:text-neutral-900">
-              Services
-            </a>
-            <a href="/locations" className="block hover:text-neutral-900">
+            </Link>
+            <Link href="/locations" className="block hover:text-neutral-900">
               Locations
-            </a>
-            <a href="/contact" className="block hover:text-neutral-900">
+            </Link>
+            <Link href="/contact" className="block hover:text-neutral-900">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
 

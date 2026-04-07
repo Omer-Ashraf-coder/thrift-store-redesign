@@ -9,7 +9,7 @@ export default function LocationsSection() {
         </p>
 
         <h2 className="max-w-3xl text-3xl font-bold tracking-tight md:text-4xl">
-          Visit one of our North Bergen locations.
+          Visit our store or stop by our donation center.
         </h2>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">
@@ -20,7 +20,7 @@ export default function LocationsSection() {
             >
               <h3 className="text-2xl font-bold">{location.name}</h3>
 
-              <p className="mt-4 text-neutral-600 leading-8">
+              <p className="mt-4 leading-8 text-neutral-600">
                 {location.addressLine1}
                 <br />
                 {location.addressLine2}

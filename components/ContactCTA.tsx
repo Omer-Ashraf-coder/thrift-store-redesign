@@ -13,16 +13,15 @@ export default function ContactCTA() {
         </p>
 
         <h2 className="mt-3 max-w-2xl text-3xl font-bold tracking-tight md:text-4xl">
-          Have questions about donating, shopping, or clean-out services?
+          Have questions about shopping, donations, or drop-offs?
         </h2>
 
         <p className="mt-4 max-w-2xl leading-7 text-neutral-300">
-          Reach out to our team for store details, donation information, or help
-          with scheduling a clean-out service.
+          Reach out to our team for store details, donation information, hours,
+          and location help.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-4">
-          {/* Call Button */}
           <a
             href={siteData.contact.phoneHref}
             aria-label={`Call ${siteData.contact.phoneDisplay}`}
@@ -31,7 +30,6 @@ export default function ContactCTA() {
             Call {siteData.contact.phoneDisplay}
           </a>
 
-          {/* Email Button (opens Gmail compose) */}
           <a
             href={gmailCompose}
             target="_blank"
@@ -39,7 +37,7 @@ export default function ContactCTA() {
             aria-label={`Email ${siteData.contact.emailDisplay}`}
             className="rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
           >
-            Email Us!
+            Email Us
           </a>
         </div>
       </div>

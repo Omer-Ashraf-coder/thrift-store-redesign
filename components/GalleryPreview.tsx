@@ -24,8 +24,8 @@ export default function GalleryPreview() {
 
           <p className="mt-4 text-base leading-8 text-neutral-600 sm:text-lg sm:leading-9">
             These snapshots show everyday moments at the shop — from customers
-            browsing clothing and household items to the friendly faces that
-            make the store a local favorite.
+            browsing great finds to the friendly faces that make the store a
+            local favorite.
           </p>
         </div>
 

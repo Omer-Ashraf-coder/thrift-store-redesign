@@ -4,26 +4,26 @@ const cards = [
   {
     href: "/locations",
     eyebrow: "Shop",
-    title: "Unique Finds",
+    title: "619 Kennedy Blvd Store",
     description:
-      "Browse clothing, shoes, home goods, and secondhand treasures at affordable prices.",
-    cta: "Explore in store →",
+      "Browse clothing, shoes, home goods, and secondhand treasures at our store-only location.",
+    cta: "Plan your visit →",
   },
   {
     href: "/donate",
     eyebrow: "Donate",
-    title: "Give Items a Second Life",
+    title: "905 Paterson Plank Rd Drop-Off",
     description:
-      "Support the community by donating gently used clothing, shoes, and other quality essentials.",
-    cta: "Learn donation details →",
+      "Donate gently used clothing and shoes at our donation center and drop-off location.",
+    cta: "See donation details →",
   },
   {
-    href: "/services",
-    eyebrow: "Service",
-    title: "Clean-Out Help",
+    href: "/about",
+    eyebrow: "About",
+    title: "Community-Focused Service",
     description:
-      "Get help with home, apartment, or estate clean-outs from a local team you can contact directly.",
-    cta: "Ask about services →",
+      "Learn more about Richard, the mission behind the store, and the work being done for local families.",
+    cta: "Read our story →",
   },
 ];
 
@@ -36,7 +36,7 @@ export default function OfferCards() {
             What We Offer
           </p>
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            Shopping, donations, and services built around the local community.
+            Shopping and donations built around the local community.
           </h2>
         </div>
 

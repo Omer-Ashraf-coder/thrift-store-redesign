@@ -8,7 +8,6 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/donate", label: "Donate" },
-  { href: "/services", label: "Services" },
   { href: "/locations", label: "Locations" },
   { href: "/contact", label: "Contact" },
 ];

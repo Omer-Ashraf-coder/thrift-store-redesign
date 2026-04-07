@@ -14,8 +14,8 @@ export default function ContactPage() {
           </h1>
 
           <p className="mt-6 max-w-5xl text-base leading-8 text-neutral-700 sm:text-lg sm:leading-9">
-            Reach out for donation questions, store information, clean-out
-            service inquiries, and general help.
+            Reach out for donation questions, store information, drop-off
+            details, and general help.
           </p>
 
           <div className="mt-10 grid gap-6 md:grid-cols-2">

@@ -71,8 +71,13 @@ Over time Richard became a trusted and valued member of the community, building 
 
 Then came a heartbreaking moment. A devastating fire destroyed the thrift store and forced Richard to consider his next path. Like a phoenix rising from the ashes, a new and even better thrift store was built — this time fully owned and operated by Richard himself.
 
-Today Richard is the proud owner and proprietor of the Thrift Store Donation Center located at:
+Today Richard is the proud owner and proprietor of the Thrift Store Donation Center with two North Bergen locations:
 
+Store Only
+619 Kennedy Blvd
+North Bergen, NJ 07047
+
+Donation Center & Drop-Off
 905 Paterson Plank Rd
 North Bergen, NJ 07047`}
             </div>

@@ -10,7 +10,7 @@ export default function LocationsPage() {
           </p>
 
           <h1 className="max-w-4xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-7xl">
-            Visit one of our North Bergen locations.
+            Visit our store or stop by our donation center.
           </h1>
 
           <div className="mt-10 grid gap-6 md:grid-cols-2">
@@ -37,7 +37,6 @@ export default function LocationsPage() {
                   {location.hours}
                 </p>
 
-                {/* Google Map */}
                 <div className="mt-6 overflow-hidden rounded-2xl border">
                   <iframe
                     src={`https://www.google.com/maps?q=${encodeURIComponent(

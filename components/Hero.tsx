@@ -37,14 +37,14 @@ export default function Hero() {
               href="/locations"
               className="inline-block rounded-full bg-neutral-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-neutral-700 sm:px-7 sm:py-3.5"
             >
-              Visit Our Store
+              View Locations
             </a>
 
             <a
-              href="/services"
+              href="/donate"
               className="inline-block rounded-full border border-neutral-300 bg-white px-6 py-3 text-sm font-semibold text-neutral-900 transition hover:bg-neutral-100 sm:px-7 sm:py-3.5"
             >
-              View Services
+              Donation Info
             </a>
           </div>
         </div>

@@ -3,14 +3,12 @@ import Link from "next/link";
 export default function ServicePromo() {
   return (
     <section className="bg-[#f7f5f1]">
-      <div className="mx-auto max-w-7xl px-6 py-16 grid gap-6 md:grid-cols-2">
-
-        {/* DONATIONS CARD */}
+      <div className="mx-auto grid max-w-7xl gap-6 px-6 py-16 md:grid-cols-2">
         <Link
           href="/donate"
-          className="group block rounded-[36px] bg-black text-white p-10 shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          className="group block rounded-[36px] bg-black p-10 text-white shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-2xl"
         >
-          <p className="text-sm font-semibold tracking-[0.22em] uppercase text-emerald-400">
+          <p className="text-sm font-semibold uppercase tracking-[0.22em] text-emerald-400">
             Donations
           </p>
 
@@ -18,39 +16,37 @@ export default function ServicePromo() {
             Make donating simple and convenient.
           </h3>
 
-          <p className="mt-6 text-neutral-300 text-lg leading-relaxed">
-            Share clear information about accepted items, drop-off details,
-            and how local donations support the store and community.
+          <p className="mt-6 text-lg leading-relaxed text-neutral-300">
+            Find clear information about what we accept, where to drop items
+            off, and which items we cannot take.
           </p>
 
-          <div className="mt-8 inline-block rounded-full border border-neutral-700 px-6 py-3 text-sm font-semibold group-hover:border-white transition">
-            Easy drop-offs • Clear guidelines
+          <div className="mt-8 inline-block rounded-full border border-neutral-700 px-6 py-3 text-sm font-semibold transition group-hover:border-white">
+            Clothes & shoes only
           </div>
         </Link>
 
-        {/* CLEAN OUT SERVICES */}
         <Link
-          href="/services"
-          className="group block rounded-[36px] bg-emerald-700 text-white p-10 shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          href="/locations"
+          className="group block rounded-[36px] bg-emerald-700 p-10 text-white shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-2xl"
         >
-          <p className="text-sm font-semibold tracking-[0.22em] uppercase text-emerald-200">
-            Clean-Outs
+          <p className="text-sm font-semibold uppercase tracking-[0.22em] text-emerald-200">
+            Locations
           </p>
 
           <h3 className="mt-4 text-4xl font-bold leading-tight">
-            Reliable help for local clean-out projects.
+            Know exactly which location to visit.
           </h3>
 
-          <p className="mt-6 text-emerald-100 text-lg leading-relaxed">
-            Highlight service areas, request details, and explain the process
-            so visitors understand how clean-out services work.
+          <p className="mt-6 text-lg leading-relaxed text-emerald-100">
+            619 Kennedy Blvd is the store-only location, and 905 Paterson Plank
+            Rd is the donation center and drop-off location.
           </p>
 
-          <div className="mt-8 inline-block rounded-full border border-emerald-300 px-6 py-3 text-sm font-semibold group-hover:border-white transition">
-            Local service • Direct contact
+          <div className="mt-8 inline-block rounded-full border border-emerald-300 px-6 py-3 text-sm font-semibold transition group-hover:border-white">
+            Store • Donation drop-off
           </div>
         </Link>
-
       </div>
     </section>
   );
